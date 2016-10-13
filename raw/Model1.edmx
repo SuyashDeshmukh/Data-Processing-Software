@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ProjectModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator">
+        <EntityContainer Name="ProjectModelStoreContainer" />
+        <!--Errors Found During Generation:
+      warning 6013: The table/view 'Project.dbo.a11' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="a11">
+        <Property Name="NoSensors" Type="nvarchar" MaxLength="60" />
+        <Property Name="StationName" Type="nvarchar" MaxLength="60" />
+        <Property Name="SatID" Type="nvarchar" MaxLength="60" />
+        <Property Name="DatabaseTable" Type="nvarchar" MaxLength="60" />
+        <Property Name="WMOmsgGen" Type="nvarchar" MaxLength="60" />
+        <Property Name="NationalStnNo" Type="nvarchar" MaxLength="60" />
+        <Property Name="TxTime" Type="nvarchar" MaxLength="60" />
+        <Property Name="SensorList" Type="ntext" />
+        <Property Name="MesIntv" Type="nvarchar" MaxLength="60" />
+        <Property Name="Prototype" Type="nvarchar" MaxLength="60" />
+        <Property Name="Latitude" Type="nvarchar" MaxLength="60" />
+        <Property Name="Longitude" Type="nvarchar" MaxLength="60" />
+        <Property Name="Altitude" Type="nvarchar" MaxLength="60" />
+        <Property Name="MarsdenSq" Type="nvarchar" MaxLength="60" />
+        <Property Name="CallSign" Type="nvarchar" MaxLength="60" />
+        <Property Name="VapourPr" Type="nvarchar" MaxLength="60" />
+        <Property Name="MeanPr" Type="nvarchar" MaxLength="60" />
+        <Property Name="Installed" Type="nvarchar" MaxLength="60" />
+        <Property Name="StateName" Type="nvarchar" MaxLength="60" />
+        <Property Name="ProjectName" Type="nvarchar" MaxLength="60" />
+        <Property Name="WMOBlockNo" Type="nvarchar" MaxLength="60" />
+        <Property Name="WMOStnNo" Type="nvarchar" MaxLength="60" />
+        <Property Name="WMOAssign" Type="nvarchar" MaxLength="60" />
+        <Property Name="00SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="00SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="00Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="00RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="00SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="00Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="00HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="00StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="00LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="00Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="01SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="01SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="01Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="01RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="01SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="01Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="01HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="01StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="01LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="01Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="02SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="02SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="02Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="02RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="02SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="02Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="02HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="02StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="02LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="02Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="03SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="03SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="03Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="03RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="03SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="03Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="03HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="03StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="03LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="03Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="04SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="04SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="04Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="04RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="04SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="04Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="04HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="04StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="04LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="04Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="05SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="05SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="05Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="05RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="05SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="05Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="05HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="05StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="05LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="05Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="06SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="06SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="06Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="06RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="06SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="06Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="06HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="06StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="06LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="06Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="07SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="07SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="07Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="07RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="07SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="07Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="07HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="07StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="07LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="07Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="08SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="08SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="08Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="08RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="08SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="08Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="08HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="08StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="08LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="08Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="09SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="09SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="09Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="09RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="09SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="09Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="09HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="09StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="09LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="09Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="10SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="10SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="10Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="10RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="10SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="10Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="10HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="10StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="10LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="10Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="11SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="11SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="11Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="11RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="11SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="11Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="11HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="11StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="11LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="11Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="12SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="12SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="12Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="12RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="12SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="12Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="12HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="12StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="12LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="12Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="13SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="13SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="13Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="13RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="13SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="13Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="13HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="13StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="13LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="13Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="14SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="14SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="14Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="14RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="14SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="14Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="14HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="14StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="14LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="14Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="15SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="15SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="15Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="15RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="15SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="15Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="15HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="15StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="15LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="15Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="16SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="16SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="16Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="16RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="16SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="16Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="16HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="16StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="16LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="16Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="17SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="17SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="17Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="17RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="17SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="17Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="17HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="17StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="17LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="17Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="18SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="18SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="18Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="18RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="18SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="18Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="18HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="18StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="18LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="18Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="19SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="19SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="19Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="19RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="19SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="19Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="19HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="19StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="19LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="19Stats" Type="nvarchar" MaxLength="60" />
+        <Property Name="20SensorName" Type="nvarchar" MaxLength="60" />
+        <Property Name="20SensorID" Type="nvarchar" MaxLength="60" />
+        <Property Name="20Equation" Type="nvarchar" MaxLength="60" />
+        <Property Name="20RightDigit" Type="nvarchar" MaxLength="60" />
+        <Property Name="20SensorPos" Type="nvarchar" MaxLength="60" />
+        <Property Name="20Enable" Type="nvarchar" MaxLength="60" />
+        <Property Name="20HighLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="20StdDiv" Type="nvarchar" MaxLength="60" />
+        <Property Name="20LowLimit" Type="nvarchar" MaxLength="60" />
+        <Property Name="20Stats" Type="nvarchar" MaxLength="60" />
+      </EntityType>-->
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ProjectModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+        <EntityContainer Name="ProjectEntities" p1:LazyLoadingEnabled="true" />
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ProjectModelStoreContainer" CdmEntityContainer="ProjectEntities" />
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams />
+  </Designer>
+</edmx:Edmx>

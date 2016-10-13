@@ -1,0 +1,74 @@
+c:\users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\raw.exe.config
+c:\users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\raw.exe
+c:\users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\raw.pdb
+c:\users\lenovo\documents\visual studio 2012\Projects\raw\raw\obj\Debug\raw.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2012\Projects\raw\raw\obj\Debug\raw.Form1.resources
+c:\users\lenovo\documents\visual studio 2012\Projects\raw\raw\obj\Debug\raw.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2012\Projects\raw\raw\obj\Debug\raw.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2012\Projects\raw\raw\obj\Debug\raw.exe
+c:\users\lenovo\documents\visual studio 2012\Projects\raw\raw\obj\Debug\raw.pdb
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\obj\Debug\raw.Form2.resources
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\obj\Debug\Project.viewer.resources
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\obj\Debug\raw.viewer.resources
+C:\Users\lenovo\Documents\Visual Studio 2012\Projects\raw\raw\obj\Debug\Project.report.resources
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\obj\Debug\raw.csproj.ResolveComReference.cache
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\ZedGraph.dll
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\ZedGraph.xml
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\obj\Debug\raw.Graph.resources
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\obj\Debug\raw.login.resources
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\obj\Debug\raw.config.resources
+C:\Users\lenovo\documents\visual studio 2012\Projects\raw\raw\obj\Debug\raw.addst.resources
+D:\proj\raw\raw\bin\Debug\raw.exe.config
+D:\proj\raw\raw\bin\Debug\raw.exe
+D:\proj\raw\raw\bin\Debug\raw.pdb
+D:\proj\raw\raw\bin\Debug\EntityFramework.dll
+D:\proj\raw\raw\bin\Debug\ZedGraph.dll
+D:\proj\raw\raw\bin\Debug\EntityFramework.xml
+D:\proj\raw\raw\bin\Debug\ZedGraph.xml
+D:\proj\raw\raw\bin\Debug\de\ZedGraph.resources.dll
+D:\proj\raw\raw\bin\Debug\es\ZedGraph.resources.dll
+D:\proj\raw\raw\bin\Debug\fr\ZedGraph.resources.dll
+D:\proj\raw\raw\bin\Debug\hu\ZedGraph.resources.dll
+D:\proj\raw\raw\bin\Debug\it\ZedGraph.resources.dll
+D:\proj\raw\raw\bin\Debug\ja\ZedGraph.resources.dll
+D:\proj\raw\raw\bin\Debug\pt\ZedGraph.resources.dll
+D:\proj\raw\raw\bin\Debug\ru\ZedGraph.resources.dll
+D:\proj\raw\raw\bin\Debug\sk\ZedGraph.resources.dll
+D:\proj\raw\raw\bin\Debug\sv\ZedGraph.resources.dll
+D:\proj\raw\raw\bin\Debug\tr\ZedGraph.resources.dll
+D:\proj\raw\raw\bin\Debug\zh-cn\ZedGraph.resources.dll
+D:\proj\raw\raw\bin\Debug\zh-tw\ZedGraph.resources.dll
+D:\proj\raw\raw\obj\Debug\raw.csprojResolveAssemblyReference.cache
+D:\proj\raw\raw\obj\Debug\raw.csproj.ResolveComReference.cache
+D:\proj\raw\raw\obj\Debug\raw.addst.resources
+D:\proj\raw\raw\obj\Debug\raw.config.resources
+D:\proj\raw\raw\obj\Debug\raw.Graph.resources
+D:\proj\raw\raw\obj\Debug\raw.Form1.resources
+D:\proj\raw\raw\obj\Debug\raw.Form2.resources
+D:\proj\raw\raw\obj\Debug\raw.login.resources
+D:\proj\raw\raw\obj\Debug\raw.Properties.Resources.resources
+D:\proj\raw\raw\obj\Debug\Project.report.resources
+D:\proj\raw\raw\obj\Debug\raw.Viewer.resources
+D:\proj\raw\raw\obj\Debug\Project.viewer.resources
+D:\proj\raw\raw\obj\Debug\raw.csproj.GenerateResource.Cache
+D:\proj\raw\raw\obj\Debug\raw.exe
+D:\proj\raw\raw\obj\Debug\raw.pdb
+D:\proj\raw\raw\bin\Debug\raw.exe.manifest
+D:\proj\raw\raw\bin\Debug\raw.application
+D:\proj\raw\raw\obj\Debug\raw.exe.manifest
+D:\proj\raw\raw\obj\Debug\raw.application
